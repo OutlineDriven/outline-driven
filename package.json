@@ -1,0 +1,29 @@
+{
+  "name": "outline-driven",
+  "version": "0.1.0",
+  "description": "One-command installer for Outline-Driven Development across Claude Code / Codex CLI / Gemini CLI.",
+  "type": "module",
+  "bin": {
+    "outline-driven": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "bun build src/cli.ts --outdir dist --target node --format esm",
+    "test": "bun test"
+  },
+  "files": [
+    "dist/"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "outlineDriven": {
+    "releaseVersion": "1.0.0",
+    "releaseRepo": "OutlineDriven/outline-driven-development"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OutlineDriven/outline-driven.git"
+  },
+  "homepage": "https://outlinedriven.github.io"
+}
