@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { parseArgs } from 'node:util';
 import { runInit } from './commands/init.js';
 import { runDoctor } from './commands/doctor.js';

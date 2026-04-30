@@ -14,7 +14,7 @@
     "dist/"
   ],
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.12.0"
   },
   "outlineDriven": {
     "releaseVersion": "1.0.0",
